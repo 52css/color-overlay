@@ -1,0 +1,47 @@
+/* Base Application Styles */
+body {
+  color: #fff;
+  background: #222;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+.ly-form {
+  padding: 20px;
+  line-height: 1.6;
+}
+.ly-label {
+  display: block;
+  padding: 0.25em 0.8em;
+  margin: 10px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.ly-result {
+  background-color: green;
+}
+.ly-control {
+  display: block;
+  padding: 0.25em;
+}
+.ly-color-select {
+  display: inline-block;;
+  width: 50px;
+  height: 50px
+}
+.ly-color-select.is-selected {
+  outline: 2px solid #fff;
+  outline-offset: -2px;
+}
